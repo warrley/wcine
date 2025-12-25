@@ -1,4 +1,4 @@
-import z, { email } from "zod";
+import z from "zod";
 import bcrypt from "bcryptjs";
 import { signinSchema, signupSchema } from "../schemas/auth";
 import { prisma } from "../config/prisma";
